@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: blue maple, maple, LIC=6XJWF-6A6T8-JPZZQ-NJEJW-14VUS-ECSY8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  E:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+E:\物联网第二课堂2016.12\test0\XYD_Watch.uvprojx
+Project File Date:  12/24/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\USER\inc\key.h(12): warning:  #1295-D: Deprecated declaration key_init - give arg types
+  void key_init();
+.\USER\inc\exti.h(4): warning:  #1295-D: Deprecated declaration init_exti0 - give arg types
+  extern void init_exti0();
+.\USER\inc\exti.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\USER\inc\timer.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER\src\main.c(179): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf((char*)uiBuf,"%02d:%02d:%02d",dateAndTime->hour,dateAndTime->minute,dateAndTime->second); 	  
+USER\src\main.c(274): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf((char*)uiBuf,"%03d",pulseBuf[7]); // //byte 7是心率结果
+USER\src\main.c(313): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf((char*)uiBuf,"%03d/%03d", BpBuf[10], BpBuf[11]);//byte 10是血压测量结果的高压,byte 11是血压测量结果的低压	
+USER\src\main.c(353): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"X:%02d ",(char)accX); // 以整数显示
+USER\src\main.c(358): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"X:-%02d",(char)(-accX)); // 以整数显示
+USER\src\main.c(365): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"Y:%02d ",(char)accY); // 以整数显示
+USER\src\main.c(370): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"Y:-%02d",(char)(-accY)); // 以整数显示
+USER\src\main.c(377): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"Z:%02d ",(char)accZ); // 以整数显示
+USER\src\main.c(382): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf((char*)uiBuf,"Z:-%02d",(char)(-accZ)); // 以整数显示
+USER\src\main.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=9394 RO-data=8254 RW-data=3224 ZI-data=1704  
+FromELF: creating hex file...
+".\Objects\XYD_Watch.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\物联网第二课堂2016.12\test0\RTE\_Target_1
+  E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

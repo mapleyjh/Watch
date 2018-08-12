@@ -1,0 +1,162 @@
+Dependencies for Project 'XYD_Watch', Target 'Target 1': (DO NOT MODIFY !)
+F (.\CMSIS\system_stm32f4xx.c)(0x53DBBB10)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (CMSIS\stm32f4xx.h)(0x57A14959)
+I (CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\CMSIS\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork -IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"--pd "__UVISION_VERSION SETA 522" --pd "STM32F411xE SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (.\USER\src\main.c)(0x585F5B40)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\key.h)(0x580974A9)
+I (.\USER\inc\led.h)(0x57FDEA65)
+I (.\USER\inc\exti.h)(0x580D87AE)
+I (.\USER\inc\uart.h)(0x57A2E748)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+I (.\USER\inc\timer.h)(0x580EB9BD)
+I (.\USER\inc\oled.h)(0x58001FA7)
+I (.\USER\inc\spi.h)(0x57FF823C)
+I (.\USER\inc\rtc.h)(0x5800408C)
+I (.\USER\inc\bmp.h)(0x585F522C)
+I (.\USER\inc\iic.h)(0x57FF0119)
+I (.\USER\inc\sht20.h)(0x57FEFD6D)
+I (.\USER\inc\hp6.h)(0x580DB877)
+I (.\USER\inc\mpu6050.h)(0x58080821)
+F (.\USER\src\key.c)(0x580DBD73)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\USER\inc\key.h)(0x580974A9)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+F (.\USER\src\led.c)(0x57FDEC32)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\led.h)(0x57FDEA65)
+F (.\USER\src\exti.c)(0x580EB9DF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (.\USER\inc\exti.h)(0x580D87AE)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+F (.\USER\src\delay.c)(0x580DBA11)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\USER\src\uart.c)(0x580DAD5B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\USER\inc\UART.h)(0x57A2E748)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\USER\src\timer.c)(0x580EB99D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\timer.h)(0x580EB9BD)
+F (.\USER\src\oled.c)(0x580EC772)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (.\USER\inc\oled.h)(0x58001FA7)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\spi.h)(0x57FF823C)
+I (.\USER\inc\font.h)(0x585F5391)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+F (.\USER\src\spi.c)(0x57FF8242)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\USER\inc\spi.h)(0x57FF823C)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\USER\src\iic.c)(0x580ECC33)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\iic.h)(0x57FF0119)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+F (.\USER\src\sht20.c)(0x57FEFD84)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\sht20.o --omf_browse .\objects\sht20.crf --depend .\objects\sht20.d)
+I (.\USER\inc\iic.h)(0x57FF0119)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+I (.\USER\inc\sht20.h)(0x57FEFD6D)
+F (.\USER\src\hp6.c)(0x580F02AD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\hp6.o --omf_browse .\objects\hp6.crf --depend .\objects\hp6.d)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\USER\inc\hp6.h)(0x580DB877)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\iic.h)(0x57FF0119)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+I (.\USER\inc\uart.h)(0x57A2E748)
+F (.\USER\src\mpu6050.c)(0x5813F9EB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
+I (.\USER\inc\mpu6050.h)(0x58080821)
+I (.\USER\inc\iic.h)(0x57FF0119)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\USER\inc\delay.h)(0x580EC3EF)
+F (.\USER\src\rtc.c)(0x585F4278)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\USER\inc-IE:\物联网第二课堂2016.12\test0\RTE\_Target_1-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"E:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0"-D__UVISION_VERSION="522" -DSTM32F411xE -DSTM32F411xE-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (.\USER\inc\rtc.h)(0x5800408C)
+I (.\CMSIS\stm32f4xx.h)(0x57A14959)
+I (.\CMSIS\core_cm4.h)(0x538426C6)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D530)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D530)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D530)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)

@@ -1,0 +1,22 @@
+.\objects\main.o: USER\src\main.c
+.\objects\main.o: .\CMSIS\stm32f4xx.h
+.\objects\main.o: .\CMSIS\core_cm4.h
+.\objects\main.o: E:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\CMSIS\core_cmInstr.h
+.\objects\main.o: .\CMSIS\core_cmFunc.h
+.\objects\main.o: .\CMSIS\core_cm4_simd.h
+.\objects\main.o: .\CMSIS\system_stm32f4xx.h
+.\objects\main.o: .\USER\inc\key.h
+.\objects\main.o: .\USER\inc\led.h
+.\objects\main.o: .\USER\inc\exti.h
+.\objects\main.o: .\USER\inc\uart.h
+.\objects\main.o: .\USER\inc\delay.h
+.\objects\main.o: .\USER\inc\timer.h
+.\objects\main.o: .\USER\inc\oled.h
+.\objects\main.o: .\USER\inc\spi.h
+.\objects\main.o: .\USER\inc\rtc.h
+.\objects\main.o: .\USER\inc\bmp.h
+.\objects\main.o: .\USER\inc\iic.h
+.\objects\main.o: .\USER\inc\sht20.h
+.\objects\main.o: .\USER\inc\hp6.h
+.\objects\main.o: .\USER\inc\mpu6050.h
